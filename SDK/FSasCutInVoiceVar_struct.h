@@ -1,0 +1,14 @@
+// UserDefinedStruct FSasCutInVoiceVar.FSasCutInVoiceVar
+// Size: 0x1b0 (Inherited: 0x00)
+struct FFSasCutInVoiceVar {
+	struct FFSasCutInVoiceData Fire_21_CE4D514A431849F269061E8D6D8376EE; // 0x00(0x30)
+	struct FFSasCutInVoiceData Metal_4_C4649CF24DAF746EBCF89099853BF942; // 0x30(0x30)
+	struct FFSasCutInVoiceData SeeThrough_6_D6E3501441C43133BF46C3910C442208; // 0x60(0x30)
+	struct FFSasCutInVoiceData Telepo_8_A2A575A54BE65608CC7F20ADB6D294A4; // 0x90(0x30)
+	struct FFSasCutInVoiceData Stealth_10_4AE4F2D94EA777D32A784DBC0D8BC4A6; // 0xc0(0x30)
+	struct FFSasCutInVoiceData Electoric_12_57E8FB4A4DEB96FEB3A453948A41B511; // 0xf0(0x30)
+	struct FFSasCutInVoiceData Copy_14_7964FFF142E9810955262E8B96F4D132; // 0x120(0x30)
+	struct FFSasCutInVoiceData Accelerator_16_C3BACE3549B70EE6D44E009B3B1F392E; // 0x150(0x30)
+	struct FFSasCutInVoiceData Psychic_24_9D2E5E294BBBD6835BC037B90E3B4BDB; // 0x180(0x30)
+};
+

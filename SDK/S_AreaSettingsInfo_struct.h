@@ -1,0 +1,25 @@
+// UserDefinedStruct S_AreaSettingsInfo.S_AreaSettingsInfo
+// Size: 0xa1 (Inherited: 0x00)
+struct FS_AreaSettingsInfo {
+	int32_t LocationID_68_BB9E913545744980C85F85898489A6E2; // 0x00(0x04)
+	int32_t AreaID_70_6E12812A452285A11C4D3E9DB7066E66; // 0x04(0x04)
+	int32_t VariationID_87_E291C77D419C5F9A8D681B8CED40EB39; // 0x08(0x04)
+	struct FName AreaName_51_E51E2F0B496EBFDE5F3362849C7A9014; // 0x0c(0x08)
+	enum class E_SceneType SceneType_34_DBE4E58B490D7EC844354EABF2193F32; // 0x14(0x01)
+	enum class EPlayerCameraPreset CameraPreset_108_2A8C22D644F01A0089A17B8615FCA8EB; // 0x15(0x01)
+	char pad_16[0x2]; // 0x16(0x02)
+	struct FName SoundSetting_62_9647562F454F621CF70C2381300834F2; // 0x18(0x08)
+	enum class E_LevelLoadStatus LoadStatus_37_92CD1C0A49B7530772E153BC604471E6; // 0x20(0x01)
+	char pad_21[0x3]; // 0x21(0x03)
+	struct FName DefaultPlayerStart_65_E10F31AC43170C58331359B5EC3F2A38; // 0x24(0x08)
+	char pad_2C[0x4]; // 0x2c(0x04)
+	struct TArray<struct FName> BGInfos_75_0D5E446442E9AA11404FDFAB3DC9669A; // 0x30(0x10)
+	struct TArray<struct FName> NObjInfos_77_D8C89E9B4163FF04638792AA44D324EB; // 0x40(0x10)
+	struct TArray<struct FName> EnemyInfos_79_1268D870488517FBC4B04BAD55DF3038; // 0x50(0x10)
+	struct TArray<struct FName> EventInfos_81_B6B4A15C4ECD67D862279DA2401DBAF5; // 0x60(0x10)
+	struct TArray<struct FName> NPCInfos_83_A4D3D32D4D0FBE630522F7A6DF15F2D1; // 0x70(0x10)
+	struct TArray<struct FName> ArrangePointInfos_91_BC90CA9D4CF53DA7A7299386ED3F96FA; // 0x80(0x10)
+	struct TArray<struct FS_AreaInfoTweak> AreaInfoTweaks_103_E807532E4636AC64182B7CB959938E8E; // 0x90(0x10)
+	bool IsNeedExport_105_35E2A608493FA5846F76E494BF3517EA; // 0xa0(0x01)
+};
+

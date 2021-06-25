@@ -1,0 +1,61 @@
+// AnimBlueprintGeneratedClass ABP_ch0100_Sub_Physics.ABP_ch0100_Sub_Physics_C
+// Size: 0x4af1 (Inherited: 0x280)
+struct UABP_ch0100_Sub_Physics_C : URSPlayerSubAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x280(0x08)
+	struct FAnimNode_LinkedInputPose AnimGraphNode_SubInput; // 0x288(0x78)
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x300(0x30)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_30; // 0x330(0x240)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_3; // 0x570(0x20)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_29; // 0x590(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_28; // 0x7d0(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_27; // 0xa10(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_26; // 0xc50(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_25; // 0xe90(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_24; // 0x10d0(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_23; // 0x1310(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_22; // 0x1550(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_21; // 0x1790(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_20; // 0x19d0(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_19; // 0x1c10(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_18; // 0x1e50(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_17; // 0x2090(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_16; // 0x22d0(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_15; // 0x2510(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_14; // 0x2750(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_13; // 0x2990(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_12; // 0x2bd0(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_11; // 0x2e10(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_10; // 0x3050(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_9; // 0x3290(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_8; // 0x34d0(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_7; // 0x3710(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_6; // 0x3950(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_5; // 0x3b90(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_4; // 0x3dd0(0x240)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; // 0x4010(0xb8)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_3; // 0x40c8(0x20)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_4; // 0x40e8(0x28)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; // 0x4110(0x28)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; // 0x4138(0x20)
+	char pad_4158[0x8]; // 0x4158(0x08)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_3; // 0x4160(0x240)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; // 0x43a0(0x20)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; // 0x43c0(0xa0)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; // 0x4460(0x20)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; // 0x4480(0x20)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; // 0x44a0(0xb8)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; // 0x4558(0x28)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; // 0x4580(0x28)
+	struct FAnimNode_TwoWayBlend AnimGraphNode_TwoWayBlend; // 0x45a8(0xc8)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics_2; // 0x4670(0x240)
+	struct FAnimNode_KawaiiPhysics AnimGraphNode_KawaiiPhysics; // 0x48b0(0x240)
+	bool ch0100Mesh; // 0x4af0(0x01)
+
+	void AnimGraph(struct FPoseLink InPose, struct FPoseLink AnimGraph); // Function ABP_ch0100_Sub_Physics.ABP_ch0100_Sub_Physics_C.AnimGraph // (HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_ch0100_Sub_Physics_AnimGraphNode_KawaiiPhysics_98368DFF4CC916AF90D60A9C15DE40D9(); // Function ABP_ch0100_Sub_Physics.ABP_ch0100_Sub_Physics_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_ch0100_Sub_Physics_AnimGraphNode_KawaiiPhysics_98368DFF4CC916AF90D60A9C15DE40D9 // (BlueprintEvent) // @ game+0x1685580
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_ch0100_Sub_Physics_AnimGraphNode_KawaiiPhysics_E241C2C04D8DF73C5CEBCA83ECDBF989(); // Function ABP_ch0100_Sub_Physics.ABP_ch0100_Sub_Physics_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_ch0100_Sub_Physics_AnimGraphNode_KawaiiPhysics_E241C2C04D8DF73C5CEBCA83ECDBF989 // (BlueprintEvent) // @ game+0x1685580
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_ch0100_Sub_Physics_AnimGraphNode_TwoWayBlend_B3E6F7144B9FD41EADEC9B9139E4AE0F(); // Function ABP_ch0100_Sub_Physics.ABP_ch0100_Sub_Physics_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_ch0100_Sub_Physics_AnimGraphNode_TwoWayBlend_B3E6F7144B9FD41EADEC9B9139E4AE0F // (BlueprintEvent) // @ game+0x1685580
+	void BlueprintInitializeAnimation(); // Function ABP_ch0100_Sub_Physics.ABP_ch0100_Sub_Physics_C.BlueprintInitializeAnimation // (Event|Public|BlueprintEvent) // @ game+0x1685580
+	void ExecuteUbergraph_ABP_ch0100_Sub_Physics(int32_t EntryPoint); // Function ABP_ch0100_Sub_Physics.ABP_ch0100_Sub_Physics_C.ExecuteUbergraph_ABP_ch0100_Sub_Physics // (Final|UbergraphFunction) // @ game+0x1685580
+};
+

@@ -1,0 +1,22 @@
+// UserDefinedStruct PsychicObjectPhysicParameter.PsychicObjectPhysicParameter
+// Size: 0x3d (Inherited: 0x00)
+struct FPsychicObjectPhysicParameter {
+	float HandleLinearDamping_26_E022F26B44A814DDD4E421A5D3366261; // 0x00(0x04)
+	float HandleLinearStiffness_27_908FFD5640AF88FEA7E3E89B66DCE5A6; // 0x04(0x04)
+	float HandleAngularDamping_28_1B34261F41D4D0DB7CDCB18DBEE6C2ED; // 0x08(0x04)
+	float HandleAngularStifness_29_1FC65AD740A2445B319EA89853A6A728; // 0x0c(0x04)
+	float HandleInterplationSpeed_30_04DD97754FB9EBAB728D5C8EE94E5B05; // 0x10(0x04)
+	float CaptureMass_44_502C6C3C40151845893469BC297E7E70; // 0x14(0x04)
+	float LiftUpRotForce_45_24A6D10D4780156F239446B6849AF985; // 0x18(0x04)
+	float LiftUpRotForceRangeMin_46_A8CAE2AB42641587C79575AD7C1595A4; // 0x1c(0x04)
+	float LiftUpRotForceRangeMax_47_A8AFF6034C5305009194CB91652C80DC; // 0x20(0x04)
+	float LiftUpRotForceTime_48_BEB1EF154EA36AC1B0A8269AB17B7781; // 0x24(0x04)
+	enum class EEasingFunc LiftUpRotForceEase_57_AA0D7C04422743BDF74F29A5A40CBAA6; // 0x28(0x01)
+	char pad_29[0x3]; // 0x29(0x03)
+	float ThrowRotForce_49_AE6A1F7041D9EB84743936882F37E0F2; // 0x2c(0x04)
+	float ThrowRotForceRangeMin_50_65DDE982460B4E9361B87596111C042A; // 0x30(0x04)
+	float ThrowRotForceRangeMax_51_DEDA620D4608DD67E6339C84A1B0DC57; // 0x34(0x04)
+	float ThrowRotForceTime_52_788BD70147DEA8FEB46FED9DAFE26242; // 0x38(0x04)
+	enum class EEasingFunc ThrowRotForceEase_58_740E994243B69B58965CFA9C25D3298E; // 0x3c(0x01)
+};
+

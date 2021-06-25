@@ -1,0 +1,21 @@
+// UserDefinedStruct UniqueObjectCameraParameter.UniqueObjectCameraParameter
+// Size: 0x38 (Inherited: 0x00)
+struct FUniqueObjectCameraParameter {
+	float AnglePlayer_6_419147664262FEDCEFF2E2849E87C054; // 0x00(0x04)
+	float AngleTarget_7_2BEA751C40DFF0F8D1919AABAADB9235; // 0x04(0x04)
+	float CameraDistance_8_9FCABAE443694282299ACBB88AFEA454; // 0x08(0x04)
+	float ExtendedDistance_36_4A7576A542EE120637318DB1441AE195; // 0x0c(0x04)
+	float HeightOffset_18_B98723E645329A2B676E388B08184811; // 0x10(0x04)
+	float StartLerpTime_9_D66B14344D5A58567361888955E2F614; // 0x14(0x04)
+	float EndLerpTime_10_8EBDC4B34E8D1AD98A281FA864DDD419; // 0x18(0x04)
+	float PosRateFromTargetToObject_15_DD4686814820448FFC50B4B062DC35FB; // 0x1c(0x04)
+	bool bFarAdjust_29_8DE340D1421E1ADB4FBCD4B107736143; // 0x20(0x01)
+	char pad_21[0x3]; // 0x21(0x03)
+	float TargetDistanceKeep_31_751EDFB84395DC21CD0C478E74B39FD6; // 0x24(0x04)
+	bool bNearAdjust_30_68D0721A45844B0EBB3412AE2FE71DA6; // 0x28(0x01)
+	char pad_29[0x3]; // 0x29(0x03)
+	float PlayerDistanceMin_32_735CE7D6480D52D25CEE7F80ED041C5B; // 0x2c(0x04)
+	float TargetDistanceStart_33_335769134EC97D95CDBC36B20F543405; // 0x30(0x04)
+	float TargetDistanceMin_34_895D0BB548C1BD05D3002781C4F1958C; // 0x34(0x04)
+};
+

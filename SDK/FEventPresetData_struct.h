@@ -1,0 +1,18 @@
+// UserDefinedStruct FEventPresetData.FEventPresetData
+// Size: 0x184 (Inherited: 0x00)
+struct FFEventPresetData {
+	struct TSoftObjectPtr<USkeletalMesh> CharaMesh_36_E789C1C048BA4EED2047CFB82DE6AA7B; // 0x00(0x28)
+	struct TMap<struct FName, struct TSoftObjectPtr<UMaterialInstance>> MaterialList_42_70492F7E436F7EDD2EF695ACF51368E6; // 0x28(0x50)
+	char pad_78[0x8]; // 0x78(0x08)
+	struct FTransform CameraTransform_1_1_18_FD263D974E425E5DA653838F1688E70C; // 0x80(0x30)
+	struct FTransform CameraTransform_16_3_19_A1FBFBE84EF30649DC0281ADD3018D6A; // 0xb0(0x30)
+	struct FTransform CameraTransform_16_9_20_1536D6AE4399A8D99B6E1DBC84E5BB60; // 0xe0(0x30)
+	struct FTransform CameraTransform_4_3_21_71EE02B1438C033B57270698D502F0E3; // 0x110(0x30)
+	struct FTransform CameraTransform_8_5_22_13066DCE44BA3A19BC42B4B49F4065CC; // 0x140(0x30)
+	float CameraFOV_1_1_31_02277C6C43F6B4A72A5AAA9CABA6D0E7; // 0x170(0x04)
+	float CameraFOV_16_3_32_BAC687DD41C4B4B4A7AAA5A223179CAD; // 0x174(0x04)
+	float CameraFOV_16_9_33_B2CB7C394021574E06310783AEDC5E25; // 0x178(0x04)
+	float CameraFOV_4_3_34_D139D5984C80921977A4C4ADAE5C3FA2; // 0x17c(0x04)
+	float CameraFOV_8_5_35_7A5FF6B4453E4FE8E136FFACD397AE15; // 0x180(0x04)
+};
+

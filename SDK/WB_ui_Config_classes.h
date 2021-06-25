@@ -1,0 +1,71 @@
+// WidgetBlueprintGeneratedClass WB_ui_Config.WB_ui_Config_C
+// Size: 0xb08 (Inherited: 0x938)
+struct UWB_ui_Config_C : UUIConfigGame {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x938(0x08)
+	struct UWidgetAnimation* info_window_out; // 0x940(0x08)
+	struct UWidgetAnimation* info_window_in; // 0x948(0x08)
+	struct UWidgetAnimation* info_window; // 0x950(0x08)
+	struct UWidgetAnimation* Out; // 0x958(0x08)
+	struct UWidgetAnimation* In; // 0x960(0x08)
+	struct UWidgetAnimation* Default; // 0x968(0x08)
+	struct UCanvasPanel* CanvasPanel_2; // 0x970(0x08)
+	struct UCanvasPanel* CanvasPanel_ViewRange; // 0x978(0x08)
+	struct UImage* Line_2; // 0x980(0x08)
+	struct UImage* Line_3; // 0x988(0x08)
+	struct UImage* Line_4; // 0x990(0x08)
+	struct UImage* Line_5; // 0x998(0x08)
+	struct UImage* Line_6; // 0x9a0(0x08)
+	struct UBackgroundBlur* Menu_BackgroundBlur; // 0x9a8(0x08)
+	struct UOverlay* Menu_Set; // 0x9b0(0x08)
+	struct UOverlay* Overlay_3; // 0x9b8(0x08)
+	struct UBorder* PG_All_Color; // 0x9c0(0x08)
+	struct UImage* PG_Cover_Black; // 0x9c8(0x08)
+	struct UREDRetainerBox* REDRetainerBox_Menu; // 0x9d0(0x08)
+	struct UREDScrollBoxSimple* REDScrollBoxSimple_1; // 0x9d8(0x08)
+	struct UREDTextBlock* Text_Config_help_2; // 0x9e0(0x08)
+	struct UREDTextBlock* Text_Option_2; // 0x9e8(0x08)
+	struct UWB_ui_Brightness_C* WB_ui_Brightness; // 0x9f0(0x08)
+	struct UWB_ui_ConfigList_Parts_1_C* WB_ui_ConfigList_Parts_1_2; // 0x9f8(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_2; // 0xa00(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_3; // 0xa08(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_4; // 0xa10(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_5; // 0xa18(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_6; // 0xa20(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_7; // 0xa28(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_8; // 0xa30(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_9; // 0xa38(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_10; // 0xa40(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_11; // 0xa48(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_2_12; // 0xa50(0x08)
+	struct UWB_ui_ConfigList_Parts_3_C* WB_ui_ConfigList_Parts_3_2; // 0xa58(0x08)
+	struct UWB_ui_ConfigList_Parts_4_C* WB_ui_ConfigList_Parts_4_2; // 0xa60(0x08)
+	struct UWB_ui_ConfigList_Parts_4_C* WB_ui_ConfigList_Parts_4_3; // 0xa68(0x08)
+	struct UWB_ui_ConfigList_Parts_4_C* WB_ui_ConfigList_Parts_4_4; // 0xa70(0x08)
+	struct UWB_ui_ConfigList_Parts_5_C* WB_ui_ConfigList_Parts_5_2; // 0xa78(0x08)
+	struct UWB_ui_ConfigList_Parts_2_C* WB_ui_ConfigList_Parts_day1_2; // 0xa80(0x08)
+	struct UWB_ui_Controller_C* WB_ui_Controller; // 0xa88(0x08)
+	struct UWB_ui_Graphic_C* WB_ui_Graphic; // 0xa90(0x08)
+	struct UWB_ui_Guide_C* WB_ui_Guide; // 0xa98(0x08)
+	struct UWB_ui_Keyboard_C* WB_ui_Keyboard; // 0xaa0(0x08)
+	struct UWB_ui_MainContents_Parts_4_C* WB_ui_MainContents_Parts_5; // 0xaa8(0x08)
+	struct UWB_ui_MainContents_Parts_5_C* WB_ui_MainContents_Parts_6; // 0xab0(0x08)
+	struct UWB_ui_MainContents_Parts_6_C* WB_ui_MainContents_Parts_6_2; // 0xab8(0x08)
+	struct UWB_ui_MainContents_Parts_6_C* WB_ui_MainContents_Parts_6_3; // 0xac0(0x08)
+	struct UWB_ui_MainContents_Parts_6_C* WB_ui_MainContents_Parts_6_4; // 0xac8(0x08)
+	struct UWB_ui_MainContents_Parts_6_C* WB_ui_MainContents_Parts_6_5; // 0xad0(0x08)
+	struct UWB_ui_MainContents_Parts_6_C* WB_ui_MainContents_Parts_6_6; // 0xad8(0x08)
+	struct UWB_ui_MainContents_Parts_6_C* WB_ui_MainContents_Parts_6_7; // 0xae0(0x08)
+	struct UWB_ui_Other_TitleBack_C* WB_ui_Other_TitleBack; // 0xae8(0x08)
+	struct UWB_ui_SystemChoice_Parts_1_C* WB_ui_SystemChoice_Parts_2; // 0xaf0(0x08)
+	struct TArray<struct UWB_ui_MainContents_Parts_6_C*> UIMainContentsPartsArray; // 0xaf8(0x10)
+
+	void Construct(); // Function WB_ui_Config.WB_ui_Config_C.Construct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1685580
+	void UpdateState(int32_t State, int32_t SubState, float DeltaSeconds); // Function WB_ui_Config.WB_ui_Config_C.UpdateState // (Event|Public|BlueprintEvent) // @ game+0x1685580
+	void OnInitialized(); // Function WB_ui_Config.WB_ui_Config_C.OnInitialized // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1685580
+	void AnyKey(struct FKey KeyName); // Function WB_ui_Config.WB_ui_Config_C.AnyKey // (BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void bindAnyKey(); // Function WB_ui_Config.WB_ui_Config_C.bindAnyKey // (Event|Public|BlueprintEvent) // @ game+0x1685580
+	void unbindAnyKey(); // Function WB_ui_Config.WB_ui_Config_C.unbindAnyKey // (Event|Public|BlueprintEvent) // @ game+0x1685580
+	void playVibrationS(); // Function WB_ui_Config.WB_ui_Config_C.playVibrationS // (Event|Public|BlueprintEvent) // @ game+0x1685580
+	void ExecuteUbergraph_WB_ui_Config(int32_t EntryPoint); // Function WB_ui_Config.WB_ui_Config_C.ExecuteUbergraph_WB_ui_Config // (Final|UbergraphFunction|HasDefaults) // @ game+0x1685580
+};
+
