@@ -1,0 +1,77 @@
+// AnimBlueprintGeneratedClass ABP_em0100.ABP_em0100_C
+// Size: 0x2480 (Inherited: 0x710)
+struct UABP_em0100_C : URSEnemyAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x710(0x08)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_6; // 0x718(0xb8)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_15; // 0x7d0(0x28)
+	struct FAnimNode_Slot AnimGraphNode_Slot_5; // 0x7f8(0x48)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_14; // 0x840(0x28)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_13; // 0x868(0x28)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_12; // 0x890(0x28)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; // 0x8b8(0x20)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_6; // 0x8d8(0xa0)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; // 0x978(0x20)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_3; // 0x998(0x108)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_5; // 0xaa0(0xa0)
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_3; // 0xb40(0xc0)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_2; // 0xc00(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; // 0xd08(0x108)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_5; // 0xe10(0xb8)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_11; // 0xec8(0x28)
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_2; // 0xef0(0xc0)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_10; // 0xfb0(0x28)
+	struct FAnimNode_Slot AnimGraphNode_Slot_4; // 0xfd8(0x48)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_4; // 0x1020(0xb8)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_9; // 0x10d8(0x28)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_4; // 0x1100(0xa0)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_8; // 0x11a0(0x28)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; // 0x11c8(0xa0)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_7; // 0x1268(0x28)
+	struct FAnimNode_Slot AnimGraphNode_Slot_3; // 0x1290(0x48)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_6; // 0x12d8(0x28)
+	struct FAnimNode_Slot AnimGraphNode_Slot_2; // 0x1300(0x48)
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend; // 0x1348(0xc0)
+	struct FAnimNode_Slot AnimGraphNode_Slot; // 0x1408(0x48)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_3; // 0x1450(0xb8)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; // 0x1508(0xa0)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; // 0x15a8(0xb8)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_5; // 0x1660(0x28)
+	struct FASAnimNode_StateMachine ASAnimGraphNode_StateMachine; // 0x1688(0x2b8)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_4; // 0x1940(0x28)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; // 0x1968(0xb8)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; // 0x1a20(0x28)
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x1a48(0x30)
+	char pad_1A78[0x8]; // 0x1a78(0x08)
+	struct FAnimNode_DragonFeetSolver AnimGraphNode_DragonFeetSolver; // 0x1a80(0x330)
+	struct FAnimNode_DragonSpineSolver AnimGraphNode_DragonSpineSolver; // 0x1db0(0x4f0)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; // 0x22a0(0x20)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; // 0x22c0(0x20)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; // 0x22e0(0x28)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; // 0x2308(0xa0)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; // 0x23a8(0x28)
+	struct FVector RightFootEffectorLocation; // 0x23d0(0x0c)
+	struct FVector LeftFootEffectorLocation; // 0x23dc(0x0c)
+	struct FVector JointTargetRight; // 0x23e8(0x0c)
+	struct FVector JointTargetLeft; // 0x23f4(0x0c)
+	bool IsDown; // 0x2400(0x01)
+	char pad_2401[0x7]; // 0x2401(0x07)
+	struct ABP_em0100Base_C* OwnerBp; // 0x2408(0x08)
+	struct TArray<float> MotionParamFootAlpha; // 0x2410(0x10)
+	struct TArray<struct FTransform> MotionParamFootTrans; // 0x2420(0x10)
+	struct FVector LookLocation; // 0x2430(0x0c)
+	bool IsBooger; // 0x243c(0x01)
+	char pad_243D[0x3]; // 0x243d(0x03)
+	struct FDragonData_MultiInput DragonParam4leg; // 0x2440(0x20)
+	struct FDragonData_MultiInput DragonParam2leg; // 0x2460(0x20)
+
+	void AnimGraph(struct FPoseLink AnimGraph); // Function ABP_em0100.ABP_em0100_C.AnimGraph // (HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void UpdateLookLocation(); // Function ABP_em0100.ABP_em0100_C.UpdateLookLocation // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void DownCheck(); // Function ABP_em0100.ABP_em0100_C.DownCheck // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void IKUpdate(); // Function ABP_em0100.ABP_em0100_C.IKUpdate // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void BlueprintUpdateAnimation(float DeltaTimeX); // Function ABP_em0100.ABP_em0100_C.BlueprintUpdateAnimation // (Event|Public|BlueprintEvent) // @ game+0x1685580
+	void AnimNotify_Attack_Begin(); // Function ABP_em0100.ABP_em0100_C.AnimNotify_Attack_Begin // (BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void AnimNotify_ChangeLeg(); // Function ABP_em0100.ABP_em0100_C.AnimNotify_ChangeLeg // (BlueprintCallable|BlueprintEvent) // @ game+0x1685580
+	void BlueprintInitializeAnimation(); // Function ABP_em0100.ABP_em0100_C.BlueprintInitializeAnimation // (Event|Public|BlueprintEvent) // @ game+0x1685580
+	void ExecuteUbergraph_ABP_em0100(int32_t EntryPoint); // Function ABP_em0100.ABP_em0100_C.ExecuteUbergraph_ABP_em0100 // (Final|UbergraphFunction) // @ game+0x1685580
+};
+
